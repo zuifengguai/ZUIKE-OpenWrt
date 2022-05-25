@@ -13,7 +13,7 @@
 - 使用 [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)代码生成文件。（ 您可以通过工作流文件中的环境变量进行更改.
 - 将文件推送到 GitHub 存储库。.config
 - 编译时选true
-     亦可自行上传.config文件进行修改
+- 亦可自行上传.config文件进行修改
 
     CONFIG_TARGET_KERNEL_PARTSIZE=256 #内核256MB .config文件里面修改
 
