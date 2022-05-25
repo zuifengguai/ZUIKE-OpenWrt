@@ -21,6 +21,7 @@
 - 在“操作”页上选择。Build OpenWrt.
 - 单击该按钮。Run workflow.
 - 生成完成后，单击“操作”页面右上角的按钮以下载二进制文件。Artifacts.
+- 通过 Ctrl-d 退出SSH
 
 ## 组件
 
