@@ -87,17 +87,8 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 # 服务
 
 #ShadowSocksR Plus+
-git clone https://github.com/fw876/helloworld.git package/helloworld
-
-#passwall
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
-
 
 #helloword
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-git clone https://github.com/fw876/helloworld.git package/helloworld
 
 #openclash   OpenClash
 
