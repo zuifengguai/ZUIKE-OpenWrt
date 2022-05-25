@@ -49,6 +49,77 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #  关机
 #luci-app-poweroff
 
+#广告屏蔽大师Plus luci-app-adbyby-plus
+
+#添加防火墙luci-app-firewall 
+
+#网络带宽监视器luci-app-nlbwmon
+
+#释放内存luci-app-ramfree
+
+#网络共享（Samba）luci-app-samba
+
+#ZeroTier内网穿透luci-app-zerotier 
+
+#AdGuard home广告过滤（Le库以外的插件）luci-app-adguardhome 
+
+#Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)
+
+#USB 打印服务器luci-app-usb-printer
+
+#ttyd
+
+#阿里云盘 FUSE
+
+#阿里云盘 WebDAV
+
+
+
+#重启advanced-reboot
+
+
+
+#实时监控 luci-app-netdata    
+
+
+
+#网络访问控制luci-app-control-weburl
+
+
+#Argon 主题设置 argonne主题设置    luci-app-argonne-config
+
+
+#京东签到  luci-app-jd-dailybonus
+
+
+
+#MWAN3 分流助手  mwan3
+
+
+#SmartDNS    luci-app-smartdns
+
+
+
+
+#应用商店   luci-app-store
+
+
+
+#测试速度-内外网络速度测试   luci-app-netspeedtest
+
+
+
+#定时重启、定时关机、定时重启网络   luci-app-autotimeset
+
+
+#应用过滤    luci-app-oaf
+
+
+
+#cups打印机   cups
+
+
+
 ##############################################################################################
 
 # 服务
