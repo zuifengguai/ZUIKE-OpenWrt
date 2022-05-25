@@ -13,6 +13,76 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# Add a feed source
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+# Add a feed source 第三方源
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git small8 https://github.com/kenzok8/small-package' >>feeds.conf.default
+
+##############################################################################################
+
+# 主题
+git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-argonne
+
+##############################################################################################
+
+# 状态
+
+# 实时监控 lede包已有
+
+#释放内存 lede包已有
+
+##############################################################################################
+
+#  系统
+
+#定时重启
+#luci-app-autoreboot
+
+#ttyd lede包已有
+
+#磁盘管理
+#luci-app-dockerman
+
+#文件传输 lede包已有
+
+#  关机
+#luci-app-poweroff
+
+##############################################################################################
+
+# 服务
+
+#ShadowSocksR Plus+
+git clone https://github.com/fw876/helloworld.git package/helloworld
+
+#passwall
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
+git clone -b luci https://github.com/xiaorouji/openwrt-passwall.git package/luci-app-passwall
+
+
+#helloword
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+git clone https://github.com/fw876/helloworld.git package/helloworld
+
+#openclash
+#OpenClash
+
+#luci-app-adguardhome
+#luci-app-adguardhome
+
+##############################################################################################
+
+# NAS
+
+#文件助手
+#luci-app-fileassistant
+
+##############################################################################################
+
+# 网络
+
+#Turbo ACC 加速 lede包已有
+
+##############################################################################################
