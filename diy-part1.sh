@@ -78,7 +78,7 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 
 #Argon 主题设置 argonne主题设置    luci-app-argonne-config
 
-#定时重启、定时关机、定时重启网络   luci-app-autotimeset
+
 
 
 
