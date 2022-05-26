@@ -64,11 +64,7 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 
 #Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)
 
-#USB 打印服务器luci-app-usb-printer
-
 #ttyd
-
-#阿里云盘 WebDAV
 
 #重启advanced-reboot
 
@@ -79,16 +75,16 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #Argon 主题设置 argonne主题设置    luci-app-argonne-config
 
 
-
-
-
-
 ##############################################################################################
 
 # 服务
 
 #docker
 #git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
+
+#阿里云盘 FUSE
+
+#阿里云盘 WebDAV
 
 #ShadowSocksR Plus+
 
@@ -106,10 +102,6 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 
 #应用商店   luci-app-store
 
-#测试速度-内外网络速度测试   luci-app-netspeedtest
-
-#应用过滤    luci-app-oaf
-
 #cups打印机   cups
 #git clone https://github.com/kenzok78/small-package/tree/main/cups.git package/luci-app-cups
 
@@ -119,9 +111,15 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 
 #文件助手   luci-app-fileassistant
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-fileassistant package/luci-app-fileassistant
+
+#USB 打印服务器luci-app-usb-printer
 ##############################################################################################
 
 # 网络
+
+#测试速度-内外网络速度测试   luci-app-netspeedtest
+
+#应用过滤    luci-app-oaf
 
 #Turbo ACC 加速 lede包已有
 ##############################################################################################
