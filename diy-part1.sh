@@ -37,18 +37,18 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 
 #  系统
 
-#定时重启
+#定时重启  luci-app-autoreboot
 #git clone https://github.com/f8q8/luci-app-autoreboot.git package/luci-app-autoreboot
 
 #ttyd lede包已有
 
-#磁盘管理
-git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
+#磁盘管理  luci-app-dockerman
+#git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 
 #文件传输 lede包已有
 
-#  关机
-git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-app-poweroff
+#  关机   luci-app-poweroff
+#git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-app-poweroff
 
 #广告屏蔽大师Plus luci-app-adbyby-plus
 
@@ -117,8 +117,8 @@ git clone https://github.com/esirplayground/luci-app-poweroff.git package/luci-a
 
 # NAS
 
-#文件助手
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-fileassistant package/luci-app-fileassistant
+#文件助手   luci-app-fileassistant
+#svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-fileassistant package/luci-app-fileassistant
 ##############################################################################################
 
 # 网络
