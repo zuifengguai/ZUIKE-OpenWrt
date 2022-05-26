@@ -124,5 +124,4 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 # 网络
 
 #Turbo ACC 加速 lede包已有
-#ZeroTier内网穿透luci-app-zerotier 
 ##############################################################################################
