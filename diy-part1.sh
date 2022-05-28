@@ -126,4 +126,5 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #删     广告屏蔽大师Plus luci-app-adbyby-plus
 #删     阿里云盘 FUSE
 #删     阿里云盘 WebDAV
+#删     应用过滤    luci-app-oaf
 ##############################################################################################
