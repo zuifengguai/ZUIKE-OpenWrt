@@ -121,12 +121,11 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 ##############################################################################################
 #########第五版即将更新
 
-#删     京东签到  luci-app-jd-dailybonus
+#删     测试速度-内外网络速度测试   luci-app-netspeedtest
 #删     MWAN3 分流助手  mwan3
 #删     广告屏蔽大师Plus luci-app-adbyby-plus
 #删     阿里云盘 FUSE
 #删     阿里云盘 WebDAV
 #删     应用过滤    luci-app-oaf
 #删     网址过滤  luci-app-weburl
-#删     上网时间控制   luci-app-control
 ##############################################################################################
