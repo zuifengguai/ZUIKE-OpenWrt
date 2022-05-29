@@ -119,9 +119,18 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 
 #Turbo ACC 加速 lede包已有
 ##############################################################################################
-#########第五版即将更新
+#########第四版本升级项目[已编译]
 
-#删     测试速度-内外网络速度测试   luci-app-netspeedtest
+#删     定时重启、定时关机、定时重启网络.   luci-app-autotimeset  
+#加     文件助手   luci-app-fileassistant  
+#删     KMS 服务器    luci-app-vlmcsd
+#删     IPSec VPN 服务器   luci-app-ipsec-vpnd  
+#删     网络唤醒    luci-app-wol
+#删     ZeroTier     luci-app-zerotier
+#########第五版即将更新[未编译]
+
+#删     测试速度-内外网络速度测试   luci-app-netspeedtest  
+#加     docker
 #删     MWAN3 分流助手  mwan3
 #删     广告屏蔽大师Plus luci-app-adbyby-plus
 #删     阿里云盘 FUSE
