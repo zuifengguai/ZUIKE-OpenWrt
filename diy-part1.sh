@@ -123,7 +123,7 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #删     阿里云盘 FUSE
 #删     阿里云盘 WebDAV
 #删     应用过滤    luci-app-oaf
-#删     网址过滤  luci-app-weburl
+#删     网址过滤  luci-app-control-weburl
 #删     京东签到  luci-app-jd-dailybonus
 #加     支持IPv6
 ##############################################################################################
