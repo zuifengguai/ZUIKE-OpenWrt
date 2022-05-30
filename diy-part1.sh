@@ -75,13 +75,7 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 
 #docker
 
-#广告屏蔽大师Plus luci-app-adbyby-plus
-
 #AdGuard home广告过滤（Le库以外的插件）luci-app-adguardhome 
-
-#阿里云盘 FUSE
-
-#阿里云盘 WebDAV
 
 #ShadowSocksR Plus+
 
@@ -90,10 +84,6 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #OpenClash   openclash
 
 #adguardhome  luci-app-adguardhome
-
-#京东签到  luci-app-jd-dailybonus
-
-#MWAN3 分流助手  mwan3
 
 #SmartDNS    luci-app-smartdns
 
@@ -113,11 +103,8 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 
 # 网络
 
-#测试速度-内外网络速度测试   luci-app-netspeedtest
-
-#应用过滤    luci-app-oaf
-
 #Turbo ACC 加速 lede包已有
+
 ##############################################################################################
 #########第四版本升级项目[已编译]
 
@@ -137,4 +124,6 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #删     阿里云盘 WebDAV
 #删     应用过滤    luci-app-oaf
 #删     网址过滤  luci-app-weburl
+#删     京东签到  luci-app-jd-dailybonus
+#加     支持IPv6
 ##############################################################################################
