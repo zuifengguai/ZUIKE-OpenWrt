@@ -89,8 +89,6 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 
 #应用商店   luci-app-store
 
-#cups打印机   cups
-
 ##############################################################################################
 
 # NAS
@@ -114,7 +112,7 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #删     IPSec VPN 服务器   luci-app-ipsec-vpnd  
 #删     网络唤醒    luci-app-wol
 #删     ZeroTier     luci-app-zerotier
-#########第五版即将更新[未编译]
+#########第五版即将更新[已编译]
 
 #删     测试速度-内外网络速度测试   luci-app-netspeedtest  
 #加     docker
@@ -126,4 +124,7 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #删     网址过滤  luci-app-control-weburl
 #删     京东签到  luci-app-jd-dailybonus
 #加     支持IPv6
+#########第5.1版即将更新[未编译]
+#加     释放内存  luci-app-ramfree
+#删     cups打印机   cups
 ##############################################################################################
