@@ -127,4 +127,7 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #########第5.1版即将更新[未编译]
 #加     释放内存  luci-app-ramfree
 #删     cups打印机   cups
+#删     Docker CE
+#删     FTP 服务器  luci-app-vsftpd
+#删     实时流量监测  luci-app-nlbwmon
 ##############################################################################################
