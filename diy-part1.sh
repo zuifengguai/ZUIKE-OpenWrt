@@ -52,8 +52,6 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 
 #网络带宽监视器luci-app-nlbwmon
 
-#释放内存luci-app-ramfree
-
 #网络共享（Samba）luci-app-samba
 
 #Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)
