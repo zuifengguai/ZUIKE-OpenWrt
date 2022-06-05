@@ -14,8 +14,8 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+#echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # Add a feed source 第三方源
 #echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
@@ -120,10 +120,11 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #删     网址过滤  luci-app-control-weburl
 #删     京东签到  luci-app-jd-dailybonus
 #加     支持IPv6
-#########第5.1版即将更新[未编译]
+#########第5.1版即将更新[已编译]
 #删     cups打印机   cups
 #删     Docker CE
 #删     FTP 服务器  luci-app-vsftpd
 #删     实时流量监测  luci-app-nlbwmon
 ##############################################################################################
+#########第6版即将更新[未编译]
 #加     磁盘管理插件：luci-app-diskman
