@@ -41,8 +41,8 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 
 #ttyd lede包已有
 
-#磁盘管理  luci-app-dockerman
-#git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
+#磁盘管理  磁盘管理插件luci-app-diskman
+
 
 #文件传输 lede包已有
 
@@ -126,3 +126,4 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #删     FTP 服务器  luci-app-vsftpd
 #删     实时流量监测  luci-app-nlbwmon
 ##############################################################################################
+#加     磁盘管理插件：luci-app-diskman
