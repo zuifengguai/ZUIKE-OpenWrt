@@ -15,3 +15,6 @@
 
 # 修改默认主题
 sed -i 's/luci-theme-bootstrap/luci-theme-argonne/' feeds/luci/collections/luci/Makefile
+
+#修改固件版本名
+sed -i "s/OpenWrt /zuifengguai compiled in $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" $ZZZ
