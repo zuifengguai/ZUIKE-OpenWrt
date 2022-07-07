@@ -35,7 +35,7 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 # luci-app-diskman  #DiskMan 磁盘管理
 # luci-app-ttyd     #ttyd
 # luci-app-netdata   #Netdata实时监控
-# advanced-reboot  #重启
+# luci-app-autoreboot  #重启
 # luci-app-autoreboot  #定时重启  
 # luci-app-poweroff    #关机
 #####################
@@ -49,7 +49,6 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 # luci-app-adguardhome   #adguardhome广告过滤
 # luci-app-openclash	#OpenClash 
 # luci-app-passwall   #passwall
-# luci-app-smartdns  #SmartDNS 服务器
 # luci-app-fileassistant  # web文件助手 
 # luci-app-ssr-plus  #ShadowSocksR Plus+  
 #####################
@@ -58,10 +57,7 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 # luci-app-sfe   #Turbo ACC网络加速
 # luci-app-samba  #网络共享（Samba）
 ##############################################################################################
-##############################################################################################
-
 #以下为原来版本更新内容
-##############################################################################################
 ##############################################################################################
 #########第四版本升级项目[已编译]
 #删     定时重启、定时关机、定时重启网络.   luci-app-autotimeset  
@@ -87,11 +83,9 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #删     FTP 服务器  luci-app-vsftpd
 #删     实时流量监测  luci-app-nlbwmon
 ##############################################################################################
-#########第6.5版即将更新[未编译]
+#########第6.5版即将更新[已编译]
 #加     磁盘管理插件：luci-app-diskman
-#加     passwall       luci-app-passwall   
-#加     支持IPv6
+#加     passwall       luci-app-passwall
 #删     HelloWorld  luci-app-vssr
 #删     硬盘休眠    luci-app-hd-idle
 #删     SmartDNS   luci-app-smartdns
-
