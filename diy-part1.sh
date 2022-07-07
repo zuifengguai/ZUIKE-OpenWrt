@@ -87,8 +87,11 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #删     FTP 服务器  luci-app-vsftpd
 #删     实时流量监测  luci-app-nlbwmon
 ##############################################################################################
-#########第6版即将更新[已编译]
+#########第6.5版即将更新[未编译]
 #加     磁盘管理插件：luci-app-diskman
 #加     passwall       luci-app-passwall   
-#删     HelloWorld  luci-app-vssr/
-#删     支持IPv6
+#加     支持IPv6
+#删     HelloWorld  luci-app-vssr
+#删     硬盘休眠    luci-app-hd-idle
+#删     SmartDNS   luci-app-smartdns
+
