@@ -16,7 +16,8 @@
 # Add a feed source 第三方源
 #echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
 #echo 'src-git smpackage https://github.com/kenzok78/small-package' >>feeds.conf.default
-echo 'src-git small8 https://github.com/kenzok8/small-package' >>feeds.conf.default
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small-package' >>feeds.conf.default
 ##############################################################################################
 
 # 主题
@@ -89,3 +90,6 @@ git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-
 #删     HelloWorld  luci-app-vssr
 #删     硬盘休眠    luci-app-hd-idle
 #删     SmartDNS   luci-app-smartdns
+#########第X7版更新[已编译]
+#重新修正,功能齐全
+##############################################################################################
