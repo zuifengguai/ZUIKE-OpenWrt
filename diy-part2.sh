@@ -33,7 +33,7 @@ sed -i '7a \\' feeds/luci/modules/luci-base/po/zh-cn/base.po
 #添加汉化
 
 #添加固件更新地址
-sed -i '/<tr><td width="33%"><%:Compiler author/a <tr><td width="33%"><%:Firmware Update%></td><td><a target="_blank" href="https://zuike7.com">优化建议及更新点这里</a></td></tr>' package/lean/autocore/files/x86/index.htm
+sed -i '/<tr><td width="33%"><%:Compiler author/a <tr><td width="33%"><%:Firmware Update%></td><td><a target="_blank" href="https://0dkchoi.wnform.com/f/jMpE9gt">优化建议及更新点这里</a></td></tr>' package/lean/autocore/files/x86/index.htm
 #添加汉化
 sed -i '8a\msgid "Firmware Update"' feeds/luci/modules/luci-base/po/zh-cn/base.po
 sed -i '9a\msgstr "固件更新"' feeds/luci/modules/luci-base/po/zh-cn/base.po
