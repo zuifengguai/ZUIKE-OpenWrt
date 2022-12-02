@@ -23,7 +23,7 @@ echo 'src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages' >> f
 ##############################################################################################
 
 # Argonne 主题
-git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-argonne
+git clone https://github.com/kenzok78/luci-theme-argonne package/luci-theme-argonne
 # Argonne 主题设置
 git clone https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-argonne-config package/luci-app-argonne-config
 ##############################################################################################
