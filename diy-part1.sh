@@ -16,15 +16,16 @@
 # Add a feed source 第三方源
 #echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
 #echo 'src-git smpackage https://github.com/kenzok78/small-package' >>feeds.conf.default
-echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-echo 'src-git small https://github.com/kenzok8/small-package' >>feeds.conf.default
-#echo 'src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages' >> feeds.conf.default
+#echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+#echo 'src-git small https://github.com/kenzok8/small-package' >>feeds.conf.default
+echo 'src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages' >> feeds.conf.default
 #echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
 ##############################################################################################
 
 # Argonne 主题
 git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-argonne
-
+# Argonne 主题设置
+git clone https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-argonne-config.git package/luci-app-argonne-config
 ##############################################################################################
 ##############################################################################################
 # 第六版本功能
