@@ -12,7 +12,7 @@
 - 单击 [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) 按钮以创建新的存储库.
 - 使用 [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)代码生成文件。（ 您可以通过工作流文件中的环境变量进行更改.
 - 通过修改diypart1.sh文件修改feeds.conf.default配置。默认添加第三方库
-- 通过修改diypart2.sh文件可以自定义默认IP，登陆密码等。按我的需要现在的默认IP为192.168.1.11,不需要更改的加#注释就可以。
+- 通过修改diypart2.sh文件可以自定义默认IP，登陆密码等。按我的需要现在的默认IP为192.168.5.1,不需要更改的加#注释就可以。
 - 编在 Actions 页面选择ZUIKE OpenWrt，然后点击Run Workflow按钮，即可开始编译。（如果需要 SSH 连接则把SSH connection to Actions的值改为true),值改为true,可自定义编译[一般默认false用.config进行编译]
 
 
