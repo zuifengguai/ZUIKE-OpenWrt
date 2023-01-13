@@ -16,15 +16,16 @@
 # Add a feed source 第三方源
 #echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
 #echo 'src-git smpackage https://github.com/kenzok78/small-package' >>feeds.conf.default
-#echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-#echo 'src-git small https://github.com/kenzok8/small-package' >>feeds.conf.default
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small-package' >>feeds.conf.default
 #echo 'src-git NueXini_Packages https://github.com/NueXini/NueXini_Packages' >> feeds.conf.default
-echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
+#echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.default
 ##############################################################################################
-# Argonne 主题
+# Argon 主题
 #拉取方法格式 { git clone 地址.git package/插件名} 
 #此方法直接拉取地址里面所有文件
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+#git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+git clone https://github.com/kenzok78/luci-theme-argonne.git package/luci-theme-argonne
 ####################################
 # Argonne 主题设置
 #拉取方法格式 { svn co  第三方源地址/trunk/名称 package/插件名}
