@@ -33,7 +33,7 @@ echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages' >>feeds.conf.
 #拉取方法格式 { svn co  第三方源地址/trunk/名称 package/插件名}
 #说明--- 此方法是拉取插件包地址里面其中一个文件夹(插件) 
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-argonne-config package/luci-app-argonne-config
-svn co https://github.com/kiddin9/openwrt-packages/tree/master/luci-theme-argon/trunk/luci-theme-argon package/luci-theme-argon
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-theme-argon package/luci-theme-argon
 ##############################################################################################
 ##############################################################################################
 
