@@ -36,7 +36,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout
@@ -75,7 +75,13 @@ jobs:
 
     - name: Install feeds
       run: cd openwrt && ./scripts/feeds install -a
-
+      
+    - name: 更换banner
+      run: |
+        cd openwrt/package/base-files/files/etc
+        sudo rm banner
+        wget https://raw.githubusercontent.com/zuifengguai/AutoBuild-Openwrt-2023/master/banner
+        
     - name: Load custom configuration
       run: |
         [ -e files ] && mv files openwrt/files
