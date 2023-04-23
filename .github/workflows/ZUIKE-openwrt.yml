@@ -80,7 +80,7 @@ jobs:
       run: |
         cd openwrt/package/base-files/files/etc
         sudo rm banner
-        wget https://raw.githubusercontent.com/zuifengguai/AutoBuild-Openwrt-2023/master/banner
+        wget https://raw.githubusercontent.com/zuifengguai/ZUIKE-OpenWrt/master/banner
         
     - name: Load custom configuration
       run: |
