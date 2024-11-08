@@ -11,7 +11,7 @@ git clone -b v5-lua --depth 1 https://github.com/sbwml/luci-app-mosdns package/l
 git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 
 # 后台IP设置
-export Ipv4_ipaddr="192.168.5.1            # 修改openwrt后台地址(填0为关闭)
+export Ipv4_ipaddr="192.168.5.1"            # 修改openwrt后台地址(填0为关闭)
 export Netmask_netm="255.255.255.0"         # IPv4 子网掩码（默认：255.255.255.0）(填0为不作修改)
 export Op_name="Zuike"                # 修改主机名称为OpenWrt(填0为不作修改)
 
