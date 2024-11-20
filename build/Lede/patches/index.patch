@@ -2,22 +2,27 @@ diff --git a/package/lean/autocore/files/x86/index.htm b/package/lean/autocore/f
 index 0f61c93..f4c0791 100644
 --- a/package/lean/autocore/files/x86/index.htm
 +++ b/package/lean/autocore/files/x86/index.htm
-@@ -751,6 +751,22 @@
+@@ -751,6 +751,23 @@
  	</table>
  </fieldset>
  
 +<fieldset class="cbi-section">
 +	<div style="display: flex; justify-content: flex-start; gap: 10px;">
 +		<input type="button" class="cbi-button cbi-button-apply" value="<%:电报TG群%> " onclick="window.open('https:t.me/+nY18Q9dltBhmNTQ1')" />
-+		<input type="button" class="cbi-button cbi-button-apply" value="<%:固件出处%> " onclick="window.open('https:zuike7.com/document/549.html')" />
++		<input type="button" class="cbi-button cbi-button-apply" value="<%:固件下载%>" onclick="window.open('https:zuike7.com/document/549.html')" />
 +		<input type="button" class="cbi-button cbi-button-apply" value="<%:问题反馈%> " onclick="window.open('https:0DkcHoI.wnform.com/f/jMpE9gt')" />
 +		<input type="button" class="cbi-button cbi-button-apply" value="<%:使用教程%> " onclick="window.open('https:zuifengguai.gitbook.io/openwrtx7s')" />
 +	</div>
 +</fieldset>
 +
++<fieldset class="cbi-section">
++
++	<legend><%:Interfaces%></legend>
++
 +	<table width="100%" cellspacing="10" id="ethinfo">
 +	</table>
 +</fieldset>
++
  <fieldset class="cbi-section">
  	<legend><%:Memory%></legend>
  
