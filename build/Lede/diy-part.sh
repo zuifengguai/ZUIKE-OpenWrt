@@ -67,16 +67,7 @@ export Automatic_Mount_Settings="0"          # 编译时加入开启NTFS格式�
 # 去除网络共享(autosamba)
 export Disable_autosamba="1"                 # 去掉源码默认自选的luci-app-samba或luci-app-samba4(1为启用命令,填0为不作修改)
 
-# 强制显示2500M和全双工（默认PVE下VirtIO不识别）
-sed -i '/exit 0/i\ethtool -s eth0 speed 10000 duplex full' /etc/rc.local
 
-# 手动更换默认主题
-# uci set luci.main.mediaurlbase='/luci-static/neobird' && uci commit luci
-
-
-
-#rm -rf feeds/packages/lang/golang
-#git clone https://github.com/sbwml/packages_lang_golang -b 21.x feeds/packages/lang/golang
 
 # 其他
 export Ttyd_account_free_login="0"           # 设置ttyd免密登录(1为启用命令,填0为不作修改)
@@ -96,7 +87,6 @@ export kernel_usage="stable"
 
 
 # 修改插件名字
-
 #sed -i 's/"aMule设置"/"电驴下载"/g' `egrep "aMule设置" -rl ./`
 #sed -i 's/"网络存储"/"NAS"/g' `egrep "网络存储" -rl ./`
 #sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' `egrep "Turbo ACC 网络加速" -rl ./`
