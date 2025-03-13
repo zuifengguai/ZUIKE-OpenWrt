@@ -1,5 +1,5 @@
 ## `【ZUIKE-OpenWrt-2025】（IPV6【带DOCKER】云编译`
-#### 🚩 ZUIKE-OpenWrt| [醉客网](https://zuike7.com)
+#### 🚩 ZUIKE-OpenWrt| [醉客网]
 - 编译库`X86系列适配OTA自动升级
 - 默认IP地址：`192.168.5.1`
 - 账户：`root`   密码：`空`
@@ -31,15 +31,65 @@
   固件使用问题第一时间留言!稳定更新[达到每个版本都可养老]
 <br />
 
- 
+- 本固件基于lean大雕的源码编译。
+- lean贡献了固件中的绝大多数插件，感谢来自五湖四海的其他插件的开发者。
+- 正因为有了他们的付出，才成就了本固件。
+- 本版本包含ipv6 / 不含任何无线驱动。可作为稳定自用版本的二级旁路由.
 
-- ================================================================
+- 本固件针对不折腾的实用功能、docker 自行搭建程序
+
+================================================================
+
+- 【2025更新】内核x86_64位OpenWrt固件 稳定版
+  <br>
+  luci-app-adguardhome         #AdGuardHome广告拦截
+  <br>
+  luci-app-argon-config         #argone主题配置
+  <br>
+  luci-app-autoreboot         #重启
+  <br>
+  luci-app-autoupdate         #定时更新插件（自动更新固件）
+  <br>
+  luci-app-diskman         #DiskMan 磁盘管理（docker拓展需要）
+  <br>
+  luci-app-dockerman         #docker
+  <br>
+  luci-app-filetransfer         #文件传输
+  <br>
+  luci-app-firewall         #添加防火墙
+  <br>
+  luci-app-mosdns         #MosDNS【DNS分流工具】
+  <br>
+  luci-app-netdata         #Netdata实时监控
+  <br>
+  luci-app-openclash         #Opexxxsh
+  <br>
+  luci-app-passwall         #paxxwall
+  <br>
+  luci-app-poweroff         #关机
+  <br>
+  luci-app-pushbot     # 全能推送 
+  <br>
+  luci-app-ramfree         #释放内存
+  <br>
+  luci-app-ttyd         #ttyd
+  <br>
+  luci-app-upnp          #通用即插即用（UPnP）
+  <br>
+  luci-theme-argon       #带argon主题
+  <br>
+
+================================================================
+
 - 首先需要打开 Openwrt 主页,点击系统-TTYD 命令窗,或者使用```putty```或者```openwrt```后台luci插件在线更新 
+
 - 输入`openwrt`即可进入固件升级菜单                            
-- ================================================================
+
+  ================================================================
 
 - 自行云编译固件姿势
-- ================================================================
+
+  ================================================================
 
 <summary>🆘 使用命令拉取别人的仓库
 
@@ -118,26 +168,4 @@ cd openwrt && make menuconfig
 [![Stargazers over time](https://starchart.cc/shidahuilang/openwrt.svg)](https://starchart.cc/shidahuilang/openwrt)
  ### 鸣谢！
  感谢以下各位大佬（排名无分先后）<br />
-[`coolsnowwolf`]
-[`danshui`]
-[`Lienol`]
-[`immortalwrt`]
-[`P3TERX`]
-[`Hyy2001X`]
-[`coolsnowwolf`]
-[`Lienol`]
-[`immortalwrt`]
-[`openwrt`]
-[`x-wrt`]
-[`P3TERX`]
-[`Hyy2001X`]
-[`dhxh`]
-[`ophub`]
-[`nicholas-opensource`]
-[`hx210`]
-[`hyird`]
-[`World Peace`]
-[`klever1988`]
-[`actions`]
-[`svenstaro`]
-[`jerrykuku`]
+[`coolsnowwolf`] [`danshui`] [`Lienol`] [`immortalwrt`] [`P3TERX`] [`Hyy2001X`] [`coolsnowwolf`] [`Lienol`] [`immortalwrt`] [`openwrt`] [`x-wrt`] [`P3TERX`] [`Hyy2001X`] [`dhxh`] [`ophub`] [`nicholas-opensource`] [`hx210`] [`hyird`] [`World Peace`] [`klever1988`] [`actions`] [`svenstaro`] [`jerrykuku`]
