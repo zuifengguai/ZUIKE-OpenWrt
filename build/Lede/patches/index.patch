@@ -8,8 +8,8 @@ index 0f61c93..f4c0791 100644
  
 +<fieldset class="cbi-section">
 +	<div style="display: flex; justify-content: flex-start; gap: 10px;">
-+		<input type="button" class="cbi-button cbi-button-apply" value="<%:更新教程%>" onclick="window.open('https://github.com/shidahuilang/openwrt')" />
-+		<input type="button" class="cbi-button cbi-button-apply" value="<%:固件下载%>" onclick="window.open('https://github.com/shidahuilang/openwrt/releases')" />
++		<input type="button" class="cbi-button cbi-button-apply" value="<%:更新教程%>" onclick="window.open('https://github.com/zuifengguai/ZUIKE-OpenWrt')" />
++		<input type="button" class="cbi-button cbi-button-apply" value="<%:固件下载%>" onclick="window.open('https://github.com/zuifengguai/ZUIKE-OpenWrt/releases')" />
 +	</div>
 +</fieldset>
 +
