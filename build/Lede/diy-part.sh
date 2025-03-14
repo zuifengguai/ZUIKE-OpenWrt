@@ -5,7 +5,7 @@
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
 # 添加luci-app-mosdns插件
-# git clone -b v5-lua --depth 1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
+git clone -b v5-lua --depth 1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
 # 添加luci-app-pushbot全能推送插件
 # git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 
