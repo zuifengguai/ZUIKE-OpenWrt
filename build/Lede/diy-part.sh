@@ -4,6 +4,30 @@
 # 自行拉取插件之前请SSH连接进入固件配置里面确认过没有你要的插件再单独拉取你需要的插件
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
+# 🌐更新下载地址：  https://github.com/zuifengguai/ZUIKE-OpenWrt/releases
+#【2025更新】内核x86_64位OpenWrt固件 稳定版
+#AdGuardHome广告拦截luci-app-adguardhome
+#argone主题配置luci-app-argon-config 
+#重启luci-app-autoreboot         
+#定时更新插件（自动更新固件）luci-app-autoupdate        
+#DiskMan 磁盘管理（docker拓展需要）  luci-app-diskman         
+#docker   luci-app-dockerman         
+#文件传输luci-app-filetransfer         
+#添加防火墙luci-app-firewall         
+#MosDNS【DNS分流工具】luci-app-mosdns         
+#Netdata实时监控luci-app-netdata         
+#Openclash  luci-app-openclash         
+#passwall  luci-app-passwall         
+#关机luci-app-poweroff         
+# 全能推送 luci-app-pushbot     
+#释放内存  luci-app-ramfree         
+#ttyd  luci-app-ttyd         
+#通用即插即用（UPnP）  luci-app-upnp          
+#带argon主题  luci-theme-argon       
+# ✅更新版本：Lede-x86-64「升级到2025.3.14最新」
+# ✅更新版本：Immortalwrt-x86-64「升级到2025.3.14最新」「在原来插件里增加了Nikki插件luci-app-nikki」
+# ‼️Lede在更新几次后不在更新，转入Immortalwrt
+
 # 添加luci-app-mosdns插件
 git clone -b v5-lua --depth 1 https://github.com/sbwml/luci-app-mosdns package/luci-app-mosdns
 # 添加luci-app-pushbot全能推送插件
