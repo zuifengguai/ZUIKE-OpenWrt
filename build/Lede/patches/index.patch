@@ -12,13 +12,7 @@ index 0f61c93..f4c0791 100644
 +		<input type="button" class="cbi-button cbi-button-apply" value="<%:固件下载%>" onclick="window.open('https://github.com/zuifengguai/ZUIKE-OpenWrt/releases')" />
 +	</div>
 +</fieldset>
-+
-+	<legend><%:Interfaces%></legend>
-+
-+	<table width="100%" cellspacing="10" id="ethinfo">
-+	</table>
-+</fieldset>
-+
+
  <fieldset class="cbi-section">
  	<legend><%:Memory%></legend>
  
