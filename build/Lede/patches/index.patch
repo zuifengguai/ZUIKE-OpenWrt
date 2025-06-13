@@ -13,6 +13,8 @@ index 0f61c93..f4c0791 100644
 +	</div>
 +</fieldset>
 +
++<fieldset class="cbi-section">
++
 +	<legend><%:Interfaces%></legend>
 +
 +	<table width="100%" cellspacing="10" id="ethinfo">
