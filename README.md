@@ -164,11 +164,6 @@ cd openwrt && make menuconfig
 
 - TG通知```Settings```->```Secrets```中添加个名字为```TELEGRAM_BOT_TOKEN```和```TELEGRAM_CHAT_ID```
 
-## 自动更新固件
-![img.png](img/img.png)
-![2.png](img/2.png)
-![img2.png](img/img2.png)
-![img3.png](img/img3.png)
 
 [![Stargazers over time](https://starchart.cc/shidahuilang/openwrt.svg)](https://starchart.cc/shidahuilang/openwrt)
  ### 鸣谢！
